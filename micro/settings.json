@@ -1,0 +1,18 @@
+{
+    "*.conf": {
+        "filetype": "shell"
+    },
+    "*.dirs": {
+        "filetype": "shell"
+    },
+    "*.sav": {
+        "filetype": "Atemos-colours"
+    },
+    "colorcolumn": 120,
+    "colorscheme": "custom",
+    "relativeruler": true,
+    "rmtrailingws": true,
+    "softwrap": true,
+    "tabhighlight": true,
+    "wordwrap": true
+}
