@@ -6,10 +6,10 @@
         "filetype": "shell"
     },
     "*.sav": {
-        "filetype": "Atemos-colours"
+        "filetype": "nix"
     },
     "colorcolumn": 120,
-    "colorscheme": "custom",
+    "colorscheme": "Atemos-colours",
     "relativeruler": true,
     "rmtrailingws": true,
     "softwrap": true,
