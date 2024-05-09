@@ -38,12 +38,12 @@ color-link symbol.tag.extended "bold green"
 color-link type "green"
 color-link type.keyword "bold green"
 
-color-link line-number "brightblue,black"
-color-link current-line-number "cyan,bold"
+color-link line-number "blue,black"
+color-link current-line-number "cyan,black,bold"
 
 color-link diff-added "bold green"
 color-link diff-modified "bold yellow"
 color-link diff-deleted "bold red"
 
 color-link gutter-error ",red"
-color-link gutter-warning "red"
+color-link gutter-warning "re
