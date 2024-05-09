@@ -46,4 +46,4 @@ color-link diff-modified "bold yellow"
 color-link diff-deleted "bold red"
 
 color-link gutter-error ",red"
-color-link gutter-warning "re
+color-link gutter-warning "red"
