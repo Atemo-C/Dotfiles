@@ -1,0 +1,79 @@
+* {
+	font-family: UbuntuMono Nerd Font;
+	font-size:   16px;
+/*	font-weight: bold; */
+	padding:     0;
+	margin:      0;
+}
+window#waybar {
+	background:    rgb (0, 0, 0);
+	color:         #ffffff;
+	border-bottom: 2px solid transparent;
+}
+button {
+	border-radius: 0;
+}
+tooltip {
+	background: rgba (0, 0, 0, 0.7);
+	border:     2px solid rgba(0, 128, 255, 0.7);
+}
+tooltip label {
+	color: #ffffff;
+}
+#workspaces button {
+	color:         #005AB3;
+	padding:       0 5px;
+	border-bottom: 2px solid transparent;
+}
+#workspaces button.active {
+	background-color: rgba(255, 255, 255, 0.2);
+	color:            #00FFFF;
+	border-bottom:    2px solid #ffffff;
+}
+#workspaces button.empty {
+	color:            #555555;
+}
+#workspaces button.urgent {
+	background-color: rgba(255, 0, 0, 0.4);
+}
+#custom-Program_launcher {
+	font-size: 20px
+}
+#custom-Power_menu {
+	font-size: 20px
+}
+#custom-Screenshot {
+	font-size: 20px
+}
+#custom-Clipboard {
+	font-size: 20px
+}
+#custom-Files {
+	font-size: 20px
+}
+#custom-Effects-Opacity {
+	font-size: 20px
+}
+#custom-Reload-Quit {
+	font-size: 20px
+}
+#custom-Close-Kill {
+	font-size: 20px
+}
+#custom-CPU {
+	font-size: 20px
+}
+#custom-RAM {
+	font-size: 20px
+}
+#custom-Volume {
+	font-size: 20px
+}
+#battery {
+	font-size: 16px
+}
+#image {
+	background-color: rgba (0, 0, 0, 0.7);
+	padding: 2px 2px;
+	margin: 2px 2px;
+}
