@@ -179,6 +179,7 @@
 	"image#Close": {
 		"path": ".config/waybar/Icons/Close.png",
 		"size": 22,
-		"on-click": "hyprctl kill",
+		"on-click": "hyprctl dispatch killactive",
+		"on-click-right": "hyprctl kill",
 	},
 }
