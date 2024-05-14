@@ -1,4 +1,4 @@
-color-link comment "italic brightblue"
+color-link comment "brightblue"
 color-link statement "yellow"
 color-link prepoc "bold cyan"
 color-link special "brightmagenta"
