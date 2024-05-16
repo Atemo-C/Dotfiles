@@ -1,0 +1,8 @@
+[audacious]
+repeat=TRUE
+software_volume_control=TRUE
+sw_volume_left=50
+sw_volume_right=50
+
+[qtui]
+playlist_columns=playing track title artist album length year
