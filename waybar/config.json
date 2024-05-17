@@ -47,7 +47,7 @@
 	"image#Program_launcher": {
 		"path": ".config/waybar/Icons/Program_launcher.png",
 		"size": 22,
-		"on-click": "bash $HOME/Programs/Scripts/Desktop scripts/Program_launcher.sh",
+		"on-click": "bash $HOME/Programs/Scripts/Desktop\\ scripts/Program_launcher.sh",
 		"on-click-right": "tofi-drun --drun-launch=true",
 	},
 
@@ -55,7 +55,7 @@
 	"image#Power_menu": {
 		"path": ".config/waybar/Icons/Power_menu.png",
 		"size": 22,
-		"on-click": "bash $HOME/Programs/Scripts/Desktop scripts/Power_menu.sh",
+		"on-click": "bash $HOME/Programs/Scripts/Desktop\\ scripts/Power_menu.sh",
 	},
 
 	// Hyprland workspaces
@@ -76,8 +76,8 @@
 	"image#Screenshot": {
 		"path": ".config/waybar/Icons/Screenshot.png",
 		"size": 22,
-		"on-click": "bash $HOME/Programs/Scripts/Desktop scripts/Hyprshot.sh",
-		"on-click-right": "bash $HOME/Programs/Scripts/Desktop scripts/Hyprshot-single.sh",
+		"on-click": "bash $HOME/Programs/Scripts/Desktop\\ scripts/Hyprshot.sh",
+		"on-click-right": "bash $HOME/Programs/Scripts/Desktop\\ scripts/Hyprshot-single.sh",
 	},
 
 	// Clipboard
