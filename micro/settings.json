@@ -10,6 +10,9 @@
     },
     "colorcolumn": 120,
     "colorscheme": "Atemos-colours",
+    "ft:unknown": {
+        "colorcolumn": 0
+    },
     "relativeruler": true,
     "rmtrailingws": true,
     "softwrap": true,
