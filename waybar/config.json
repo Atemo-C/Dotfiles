@@ -78,6 +78,8 @@
 		"size": 22,
 		"on-click": "bash $HOME/Programs/Scripts/Desktop\\ scripts/Hyprshot.sh",
 		"on-click-right": "bash $HOME/Programs/Scripts/Desktop\\ scripts/Hyprshot-single.sh",
+		"on-scroll-up": "hyprctl keyword decoration:screen_shader $HOME/.config/hypr/shaders/crt.frag",
+		"on-scroll-down": "hyprctl keyword decoration:screen_shader ''",
 	},
 
 	// Clipboard
