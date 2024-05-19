@@ -45,7 +45,7 @@
 
 	// Program launcher
 	"image#Program_launcher": {
-		"path": ".config/waybar/Icons/Program\\ launcher.png",
+		"path": ".config/waybar/Icons/Program launcher.png",
 		"size": 22,
 		"on-click": "bash $HOME/Programs/Scripts/Desktop\\ scripts/Program\\ launcher.sh",
 		"on-click-right": "tofi-drun --drun-launch=true",
@@ -53,7 +53,7 @@
 
 	// Power menu
 	"image#Power_menu": {
-		"path": ".config/waybar/Icons/Power\\ menu.png",
+		"path": ".config/waybar/Icons/Power menu.png",
 		"size": 22,
 		"on-click": "bash $HOME/Programs/Scripts/Desktop\\ scripts/Power\\ menu.sh",
 	},
@@ -143,7 +143,7 @@
 
 	// Output volume
 	"image#Volume": {
-		"path": ".config/waybar/Icons/Output\\ volume.png",
+		"path": ".config/waybar/Icons/Output volume.png",
 		"size": 22,
 		"on-click": "pavucontrol",
 		"on-click-right": "qpwgraph",
