@@ -1,6 +1,6 @@
 # Audacious configuration
 
-This is a configuration file for the [Audacious music player](https://audacious-media-player.org/).
+Configuration file for the [Audacious music player](https://audacious-media-player.org/).
 
 ---
 
