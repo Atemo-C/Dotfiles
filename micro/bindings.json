@@ -1,0 +1,7 @@
+{
+    "Alt-/": "lua:comment.comment",
+    "CtrlUnderscore": "lua:comment.comment",
+    "F5": "lua:wc.wordCount",
+    "\u001b[P": "Delete",
+    "\u001b[M": "DeleteWordRight"
+}
