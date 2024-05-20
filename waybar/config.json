@@ -87,7 +87,7 @@
 		"path": ".config/waybar/Icons/Clipboard.png",
 		"size": 22,
 		"on-click": "clipman pick -t CUSTOM -T tofi",
-		"on-click-right":  "alacritty -e micro $HOME/Documents/Clipboard.txt",
+		"on-click-right":  "st -e micro $HOME/Documents/Clipboard.txt",
 		"on-click-middle": "clipman clear --all & notify-send -t 1000 'Clipboard cleared'",
 	},
 
