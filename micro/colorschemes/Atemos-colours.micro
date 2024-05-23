@@ -1,6 +1,6 @@
 color-link comment "brightblue"
 color-link statement "yellow"
-color-link prepoc "bold cyan"
+color-link preproc "bold cyan"
 color-link special "brightmagenta"
 color-link ignore "default"
 color-link error "bold red"
