@@ -115,9 +115,9 @@
 	"Ctrl-s": "Save",
 
 	// Tab control
-	"Ctrl-t":        "AddTab",
-	"Ctrl-PageUp":   "PreviousTab",
-	"Ctrl-PageDown": "NextTab",
+	"Ctrl-t":         "AddTab",
+	"Shift-Tab":      "NextTab",
+	"Ctrl-Shift-Tab": "PreviousTab",
 
 	// Mouse bindings
 	"MouseWheelUp":     "ScrollUp",
