@@ -1,12 +1,12 @@
 {
 	// ST fixes
-	"\u001b[P":      "Delete",
-	"\u001b[M":      "DeleteWordRight",
-	"\u001b[127;5u": "DeleteWordLeft",
-	"\u001b[13;2u":  "InsertNewline",
-	"\u001b[127;2u": "Backspace",
-	"\u001b[32;2u":  "None",
-	"\u001b[2K":     "Delete",
+	"\u001b[P":      "Delete",          // Delete
+	"\u001b[2K":     "Delete",          // Shift + Delete
+	"\u001b[M":      "DeleteWordRight", // Ctrl  + Backspace
+	"\u001b[127;2u": "Backspace",       // Shift + Backspace
+	"\u001b[127;5u": "DeleteWordLeft",  // Ctrl  + Delete
+	"\u001b[13;2u":  "InsertNewline",   // Shift + Enter
+	"\u001b[32;2u":  "None",            // Shift + Space
 
 	// Plugins
     "Alt-/":          "lua:comment.comment",
@@ -115,9 +115,9 @@
 	"Ctrl-s": "Save",
 
 	// Tab control
-	"Ctrl-t":         "AddTab",
-	"Shift-Tab":      "NextTab",
-	"Ctrl-Shift-Tab": "PreviousTab",
+	"Ctrl-t":      "AddTab",
+	"\u001b[9;5u": "NextTab",    // Ctrl + Tab
+	"\u001b[1;3Z": "PreviousTab", // Alt + Tab
 
 	// Mouse bindings
 	"MouseWheelUp":     "ScrollUp",
