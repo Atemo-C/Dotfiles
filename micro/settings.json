@@ -5,6 +5,9 @@
     "*.dirs": {
         "filetype": "shell"
     },
+    "*.jsonc": {
+        "filetype": "json"
+    },
     "*.sav": {
         "filetype": "nix"
     },
