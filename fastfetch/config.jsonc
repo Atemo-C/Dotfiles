@@ -1,0 +1,134 @@
+{
+	"$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+	"modules": [
+		"break",
+		{
+			"type": "custom",
+			"format": "━━━━━━━━━━━━━━━┫ Software information ┣━━━━━━━━━━━━━━━"
+		},
+		"break",
+		{
+			"type": "title",
+			"key": "  Username",
+			"format": "     {1}"
+		},
+		{
+			"type": "title",
+			"key": "  Computer name",
+			"format": "{2}"
+		},
+		"break",
+		{
+			"type": "localip",
+			"key": "  Local IPv4",
+			"format": "{1}"
+		},
+		{
+			"type": "uptime",
+			"key": "  Uptime",
+			"format": "    {1}d {2}h {3}m {4}s"
+		},
+		"break",
+		{
+			"type": "os",
+			"key": "  NixOS version",
+			"format": " {3}"
+		},
+		{
+			"type": "kernel",
+			"key": "  Kernel version"
+		},
+		"break",
+		{
+			"type": "wm",
+			"key": "  Compositor"
+		},
+		{
+			"type": "terminal",
+			"key": "  Terminal",
+			"format": "  {1}"
+		},
+		{
+			"type": "shell",
+			"key": " User shell",
+			"format": " {1}"
+		},
+		"break",
+		{
+			"type": "font",
+			"key": "  Font",
+			"format": "         {2}"
+		},
+		{
+			"type": "terminalfont",
+			"key": "  Terminal font",
+			"format": "{1}"
+		},
+		"break",
+		{
+			"type": "theme",
+			"key": "  Program theme"
+		},
+		{
+			"type": "icons",
+			"key": "  Icon theme",
+			"format": "   {1}"
+		},
+		{
+			"type": "cursor",
+			"key": "  Cursor theme",
+			"format": " {1}"
+		},
+		"break",
+		"break",
+		{
+			"type": "custom", // Software information title
+			"format": "━━━━━━━━━━━━━━━┫ Hardware information ┣━━━━━━━━━━━━━━━"
+		},
+		{
+			"type": "custom", // Spacer
+			"format": ""
+		},
+		{
+			"type": "cpu",
+			"key": "  CPU",
+			"format": " {1} ({3} cores, {5} threads)"
+		},
+		{
+			"type": "gpu",
+			"key": "  GPU",
+			"format": " {1} {2}"
+		},
+		{
+			"type": "memory",
+			"key": "  RAM",
+			"format": " {1} / {2} [{3}]"
+		},
+		{
+			"type": "swap",
+			"key": "  Swap",
+			"format": "{1} / {2} [{3}]"
+		},
+		"break",
+		{
+			"type": "disk",
+			"key": "  Storage",
+			"format": "[{10}]: {1} / {2} [{3}]"
+		},
+		{
+			"type": "battery",
+			"key": "  Battery",
+			"format": "{4}, {5}"
+		},
+		"break",
+		{
+			"type": "display",
+			"key": "  Display",
+			"format": "{1}x{2} @ {3}Hz (scaled as {4}x{5})"
+		},
+		"break",
+		"colors",
+		"break",
+	],
+	"logo": "none"
+}
