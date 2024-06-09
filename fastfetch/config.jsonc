@@ -5,7 +5,6 @@
 
 	"modules": [
 		"break",
-
 		{
 			"type": "custom",
 			"key": "  Central processing unit",
@@ -208,5 +207,6 @@
 			"keyColor": "Magenta",
 			"format": " {1}",
 		},
+		"break",
 	],
 }
