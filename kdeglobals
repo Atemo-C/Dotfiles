@@ -134,13 +134,40 @@ ForegroundVisited=192,0,255
 
 [General]
 ColorSchemeHash=4be6fcdb3f4ce635e496e3f6c27fc5a109b55381
+XftHintStyle=hintslight
+XftSubPixel=none
+fixed=UbuntuMono Nerd Font,11,-1,5,50,0,0,0,0,0
+font=UbuntuMono Nerd Font,11,-1,5,50,0,0,0,0,0
+menuFont=UbuntuMono Nerd Font,11,-1,5,50,0,0,0,0,0
+smallestReadableFont=UbuntuMono Nerd Font,11,-1,5,50,0,0,0,0,0
+toolBarFont=UbuntuMono Nerd Font,11,-1,5,50,0,0,0,0,0
 
 [Icons]
 Theme=breeze-dark
 
+[KFileDialog Settings]
+Allow Expansion=false
+Automatically select filename extension=true
+Breadcrumb Navigation=true
+Decoration position=2
+LocationCombo Completionmode=5
+PathCombo Completionmode=5
+Show Bookmarks=false
+Show Full Path=false
+Show Inline Previews=true
+Show Speedbar=true
+Show hidden files=false
+Sort by=Name
+Sort directories first=true
+Sort hidden files last=false
+Sort reversed=false
+Speedbar Width=152
+View Style=DetailTree
+
 [WM]
 activeBackground=30,30,30
 activeBlend=255,255,255
+activeFont=UbuntuMono Nerd Font,11,-1,5,50,0,0,0,0,0
 activeForeground=255,255,255
 inactiveBackground=30,30,30
 inactiveBlend=161,169,177
