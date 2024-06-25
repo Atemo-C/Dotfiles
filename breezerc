@@ -1,0 +1,6 @@
+[Style]
+MenuOpacity=100
+ScrollBarAddLineButtons=1
+ScrollBarSubLineButtons=1
+ToolBarDrawItemSeparator=false
+WindowDragMode=WD_MINIMAL
