@@ -21,7 +21,7 @@ color-link constant.bool "bold cyan"
 color-link constant.bool.true "bold green"
 color-link constant.bool.false "bold red"
 color-link constant.bool.string "yellow"
-color-link constant.string.url "underline blue,white"
+color-link constant.string.url "underline blue"
 color-link constant.number "bold magenta"
 color-link constant.specialChar "bold magenta"
 
