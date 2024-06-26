@@ -1,10 +1,10 @@
 font = /run/current-system/sw/share/X11/fonts/UbuntuMonoNerdFontRegular.ttf
 font-size = 12
-background-color = "#242424"
+background-color = "#1e1e1e"
 selection-color = "#ffffff"
-selection-background = "#454545"
+selection-background = "#0f415f"
 selection-background-padding = 6
-input-background = "#393939"
+input-background = "#141414"
 input-background-padding = 6
 result-spacing = 8
 border-width = 2
