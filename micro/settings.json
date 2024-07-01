@@ -1,0 +1,21 @@
+{
+  "*.conf": {
+    "filetype": "shell"
+  },
+  "*.dirs": {
+    "filetype": "shell"
+  },
+  "*.jsonc": {
+    "filetype": "json"
+  },
+  "*.sav": {
+    "filetype": "nix"
+  },
+  "colorcolumn": 120,
+  "colorscheme": "Atemos-colours",
+  "relativeruler": true,
+  "rmtrailingws": true,
+  "softwrap": true,
+  "tabhighlight": true,
+  "wordwrap": true
+}
