@@ -1,75 +1,66 @@
 {
-	// ST fixes
-	"\u001b[P":      "Delete",          // Delete
-	"\u001b[2K":     "Delete",          // Shift + Delete
-	"\u001b[M":      "DeleteWordRight", // Ctrl  + Backspace
-	"\u001b[127;2u": "Backspace",       // Shift + Backspace
-	"\u001b[127;5u": "DeleteWordLeft",  // Ctrl  + Delete
-	"\u001b[13;2u":  "InsertNewline",   // Shift + Enter
-	"\u001b[32;2u":  "None",            // Shift + Space
-
 	// Plugins
-    "Alt-/":          "lua:comment.comment",
+    "Alt-/": "lua:comment.comment",
     "CtrlUnderscore": "lua:comment.comment",
-    "F5":             "lua:wc.wordCount",
+    "F5": "lua:wc.wordCount",
 
 	// Cursor movement
-	"Left":      "CursorLeft",
-	"Down":      "CursorDown",
-	"Up":        "CursorUp",
-	"Right":     "CursorRight",
-	"PageUp":    "CursorPageUp",
-	"PageDown":  "CursorPageDown",
+	"Left": "CursorLeft",
+	"Down": "CursorDown",
+	"Up": "CursorUp",
+	"Right": "CursorRight",
+	"PageUp": "CursorPageUp",
+	"PageDown": "CursorPageDown",
 	"Ctrl-Down": "CursorEnd",
-	"Ctrl-Up":   "CursorStart",
+	"Ctrl-Up": "CursorStart",
 	"Ctrl-Home": "CursorStart",
-	"Ctrl-End":  "CursorEnd",
-	"Alt-Left":  "StartOfTextToggle",
+	"Ctrl-End": "CursorEnd",
+	"Alt-Left": "StartOfTextToggle",
 	"Alt-Right": "EndOfLine",
-	"Home":      "StartOfText",
-	"End":       "EndOfLine",
-	"Alt-{":     "ParagraphPrevious",
-	"Alt-}":     "ParagraphNext",
-	"Alt-[":     "DiffPrevious|CursorStart",
-	"Alt-]":     "DiffNext|CursorEnd",
+	"Home": "StartOfText",
+	"End": "EndOfLine",
+	"Alt-{": "ParagraphPrevious",
+	"Alt-}": "ParagraphNext",
+	"Alt-[": "DiffPrevious|CursorStart",
+	"Alt-]": "DiffNext|CursorEnd",
 
 	// Text selection
-	"Shift-Left":      "SelectLeft",
-	"Shift-Down":      "SelectDown",
-	"Shift-Up":        "SelectUp",
-	"Shift-Right":     "SelectRight",
-	"Shift-Alt-Left":  "SelectToStartOfTextToggle",
-	"Shift-Home":      "SelectToStartOfTextToggle",
+	"Shift-Left": "SelectLeft",
+	"Shift-Down": "SelectDown",
+	"Shift-Up": "SelectUp",
+	"Shift-Right": "SelectRight",
+	"Shift-Alt-Left": "SelectToStartOfTextToggle",
+	"Shift-Home": "SelectToStartOfTextToggle",
 	"Shift-Alt-Right": "SelectToEndOfLine",
-	"Shift-End":       "SelectToEndOfLine",
-	"Ctrl-Shift-Up":   "SelectToStart",
+	"Shift-End": "SelectToEndOfLine",
+	"Ctrl-Shift-Up": "SelectToStart",
 	"Ctrl-Shift-Down": "SelectToEnd",
-	"Ctrl-A":          "SelectAll",
+	"Ctrl-A": "SelectAll",
 
 	// Word selection
-	"Ctrl-Shift-Left":  "SelectWordLeft",
+	"Ctrl-Shift-Left": "SelectWordLeft",
 	"Ctrl-Shift-Right": "SelectWordRight",
 
 	// Line movement
 	"Alt-Down": "MoveLinesDown",
-	"Alt-Up":   "MoveLinesUp",
+	"Alt-Up": "MoveLinesUp",
 
 	// General actions
-	"Backspace":     "Backspace",
-	"Delete":        "Delete",
+	"Backspace": "Backspace",
+	"Delete": "Delete",
 	"Alt-Backspace": "DeleteWordLeft",
-	"Enter":         "InsertNewline",
-	"Tab":           "Autocomplete|IndentSelection|InsertTab",
-	"Backtab":       "OutdentSelection|OutdentLine",
-	"Esc":           "Escape",
-	"Insert":        "ToggleOverwriteMode",
+	"Enter": "InsertNewline",
+	"Tab": "Autocomplete|IndentSelection|InsertTab",
+	"Backtab": "OutdentSelection|OutdentLine",
+	"Esc": "Escape",
+	"Insert": "ToggleOverwriteMode",
 
 	// Help
 	"Alt-h": "ToggleHelp",
-	"Alt-g":  "ToggleKeyMenu",
+	"Alt-g": "ToggleKeyMenu",
 
 	// Shell and Command
-	"Alt-s":  "ShellMode",
+	"Alt-s": "ShellMode",
 	"Ctrl-e": "CommandMode",
 
 	// Ruler
@@ -79,7 +70,7 @@
 	"Ctrl-f": "Find",
 	"Ctrl-n": "FindNext",
 	"Ctrl-p": "FindPrevious",
-	"Alt-f":  "FindLiteral",
+	"Alt-f": "FindLiteral",
 	"Ctrl-g": "command-edit:goto",
 
 	// Quit
@@ -93,13 +84,13 @@
 	"Ctrl-j": "PlayMacro",
 
 	// Multi-cursor
-	"Alt-n":        "SpawnMultiCursor",
-	"AltShiftUp":   "SpawnMultiCursorUp",
+	"Alt-n": "SpawnMultiCursor",
+	"AltShiftUp": "SpawnMultiCursorUp",
 	"AltShiftDown": "SpawnMultiCursorDown",
-	"Alt-m":        "SpawnMultiCursorSelect",
-	"Alt-p":        "RemoveMultiCursor",
-	"Alt-c":        "RemoveAllMultiCursors",
-	"Alt-x":        "SkipMultiCursor",
+	"Alt-m": "SpawnMultiCursorSelect",
+	"Alt-p": "RemoveMultiCursor",
+	"Alt-c": "RemoveAllMultiCursors",
+	"Alt-x": "SkipMultiCursor",
 
 	// Text control
 	"Ctrl-z": "Undo",
@@ -115,14 +106,18 @@
 	"Ctrl-s": "Save",
 
 	// Tab control
-	"Ctrl-t":      "AddTab",
-	"\u001b[9;5u": "NextTab",    // Ctrl + Tab
-	"\u001b[1;3Z": "PreviousTab", // Alt + Tab
+	"Ctrl-t": "AddTab",
+	"Alt-Tab": "NextTab",
+	"Alt-Backtab": "PreviousTab",
+
+	// Mouse tab control
+	"Ctrl-MouseWheelUp": "NextTab",
+	"Ctrl-MouseWheelDown": "PreviousTab",
 
 	// Mouse bindings
-	"MouseWheelUp":     "ScrollUp",
-	"MouseWheelDown":   "ScrollDown",
-	"MouseLeft":        "MousePress",
-	"MouseMiddle":      "PastePrimary",
-	"Ctrl-MouseLeft":   "MouseMultiCursor"
+	"MouseWheelUp": "ScrollUp",
+	"MouseWheelDown": "ScrollDown",
+	"MouseLeft": "MousePress",
+	"MouseMiddle": "PastePrimary",
+	"Ctrl-MouseLeft": "MouseMultiCursor"
 }
