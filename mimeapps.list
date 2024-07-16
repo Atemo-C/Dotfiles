@@ -3,5 +3,5 @@ inode/directory=thunar.desktop
 image/webp=lximage-qt.desktop
 image/png=lximage-qt.desktop
 image/jpeg=lximage-qt.desktop
-text/plain=userapp-alacritty --working-directory -e micro %F-Z5UTQ2.desktop
+text/plain=userapp-alacritty -e micro %F-Z5UTQ2.desktop
 audio/x-vorbis+ogg=audacious.desktop
