@@ -4,6 +4,11 @@
     "CtrlUnderscore": "lua:comment.comment",
     "F5": "lua:wc.wordCount",
 
+    // Re-introducing ctrl-click-dragging multicursor creation.
+    // Why did it even go away on already existing configs?
+    // Don't break user space god damn it!
+    "Ctrl-MouseLeftDrag": "MouseMultiCursor",
+
 	// Cursor movement
 	"Left": "CursorLeft",
 	"Down": "CursorDown",
