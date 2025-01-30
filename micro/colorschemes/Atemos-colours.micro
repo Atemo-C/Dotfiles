@@ -15,6 +15,7 @@ color-link match-brace ",magenta"
 color-link tab-error "brightred"
 color-link trailingws "brightred"
 color-link divider "blue"
+color-link cursor-line "black"
 
 color-link constant "cyan"
 color-link constant.bool "bold cyan"
