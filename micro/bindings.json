@@ -1,13 +1,13 @@
 {
 	// Plugins
-    "Alt-/": "lua:comment.comment",
-    "CtrlUnderscore": "lua:comment.comment",
-    "F5": "lua:wc.wordCount",
+	"Alt-/": "lua:comment.comment",
+	"CtrlUnderscore": "lua:comment.comment",
+	"F5": "lua:wc.wordCount",
 
-    // Re-introducing ctrl-click-dragging multicursor creation.
-    // Why did it even go away on already existing configs?
-    // Don't break user space god damn it!
-    "Ctrl-MouseLeftDrag": "MouseMultiCursor",
+	// Re-introducing ctrl-click-dragging multicursor creation, and now fixed!
+	// https://github.com/zyedidia/micro/issues/3707
+	// Thanks to https://github.com/dmaluka !
+	"Ctrl-MouseLeftDrag": "lua:initlua.mouseMultiCursorNoHorizontal",
 
 	// Cursor movement
 	"Left": "CursorLeft",
