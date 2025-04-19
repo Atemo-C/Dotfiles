@@ -15,7 +15,6 @@
 	"colorcolumn": 120,
 	"colorscheme": "Atemos-colours",
 	"diffgutter": true,
-	"hlsearch": true,
 	"hltaberrors": true,
 	"hltrailingws": true,
 	"matchbracestyle": "highlight",
